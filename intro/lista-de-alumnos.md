@@ -1,6 +1,6 @@
 # Lista de Alumnos
 
-####Este es mi primer repositorio en GitHub
+#### Este es mi primer repositorio en GitHub
 1. Ya he configurado la clave SSH en mi equipo
 1. Ya sé como clonar directorios de GitHub en mi equipo
 1. Ya sé como subir modificaciones de mi equipo a la nube desde la terminal
