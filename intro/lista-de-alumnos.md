@@ -13,8 +13,6 @@
 1. Yatzil
 1. Mariela
 
-
-
 ## Segunda línea
 
 - Aislynn
@@ -25,9 +23,6 @@
 ### Tercera prueba
 
 *Esta es una prueba para verificar que puedo usar la llave SSH*
-
-
-
 
 
 
