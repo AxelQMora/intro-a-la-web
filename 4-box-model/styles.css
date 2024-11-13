@@ -1,0 +1,73 @@
+
+
+body{
+background-color: rgb(170, 237, 172);
+font-family: "Doto", sans-serif;;
+}
+
+h1{
+    padding-block: 10px 50px;
+    padding-inline: 20px 60px;
+
+    /* It can also be written each side at a time using -start -end */
+
+    border: solid 30px;
+
+    margin-block: 10px 15px;
+    margin-inline: 20px 50px;
+}
+
+p {
+    background-color: white;
+    border: dashed 5px;
+    padding-block: 10px ;
+    padding-inline: 10px;
+}
+
+#parrafo-1{
+    /*backgrounf-clip to modify the extent of the background*/
+    background-clip: border-box;
+    width: 150px;
+}
+
+#parrafo-2{
+    background-clip: padding-box;
+}
+
+#parrafo-3{
+    background-clip: content-box;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,9,121,1) 23%, rgba(0,212,255,1) 79%);
+    background-size: contain;
+    background-clip: text;
+
+    /*Makes transparent the letters*/
+    color: transparent;
+
+}
+
+span {
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+
+    /*This option allows us to use properties of blocks on spans within an inline structure*/
+    display: inline-block;
+}
+
+#p-inline{
+    padding-block: 5px;
+    padding-inline: 5px;
+
+    width: 60px;
+
+    display: inline;
+}
